@@ -15,7 +15,7 @@ void PrintGameSummary();
 
 FBullCowGame BCGame; // instantiate a new game, which we re-use across plays
 
-// punkt wejúcia dla gry
+// punkt wej≈ìcia dla gry
 int main()
 {
 	bool bPlayAgain = false;
@@ -26,7 +26,7 @@ int main()
 	} 
 	while (bPlayAgain);
 
-	return 0; // wyúcie z gry
+	return 0; // wy≈ìcie z gry
 }
 
 void PrintIntro()
@@ -126,9 +126,9 @@ void PrintGameSummary()
 		std::cout << "|            /~~~~~\        /~~~~~\                    " << std::endl;
 		std::cout << "|           |    (~'        ~~~)   |                   " << std::endl;
 		std::cout << "|            \    \__________/    /                    " << std::endl;
-		std::cout << "|            / ~::::::::         ~\                     " << std::endl;
+		std::cout << "|            / ~::::::::         ~\                    " << std::endl;
 		std::cout << "| /~~~~~~~-_|  ::::::::            |_-~~~~~~~\         " << std::endl;
-		std::cout << "|\ ======= /|   ::A::;      A     :|\ ====== /          " << std::endl;
+		std::cout << "|\ ======= /|   ::A::;      A     :|\ ====== /         " << std::endl;
 		std::cout << "| ~-_____-~ |  _----------------_::| ~-____-~          " << std::endl;
 		std::cout << "|           |/~                  ~\|                   " << std::endl;
 		std::cout << "|           /                      \                   " << std::endl;
