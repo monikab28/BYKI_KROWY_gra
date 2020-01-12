@@ -105,8 +105,7 @@ FText GetValidGuess()
 			break;
 		default:
 			// assume the guess is valid
-			break;
-		}
+			break; }
 	} while (Status != EGuessStatus::OK); // keep looping until we get no errors
 	return Guess;
 }
